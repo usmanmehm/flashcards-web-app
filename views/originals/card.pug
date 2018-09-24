@@ -1,0 +1,12 @@
+extends layout.pug
+
+block main
+  section#content
+    h2= text
+    if hint
+      p
+        i Hint: #{hint}
+    a(href=`/cards/${id}?side=${redirectSide}`) #{buttonText}
+    br
+    br
+    a(href='/cards') Ask me another one!

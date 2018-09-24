@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    link(rel='stylesheet', href='/static/stylesheets/style.css')
+    title Flashcards
+  body
+    include includes/header.pug
+    section.namecard
+      .namecard-hello
+        if name
+          p.namecard-greeting Welcome, #{name}!
+          form.namecard-exit(action='/goodbye', method='post')
+            button(type='submit')
+              img(src='/static/img/close.svg')
+    block main

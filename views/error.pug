@@ -1,0 +1,16 @@
+doctype html
+html(lang='en')
+  head
+    title Flash Cards
+    link(rel='stylesheet', href='/static/stylesheets/style.css')
+  body
+    header
+      img(src='/static/img/logo.png')
+      p An app to help you study
+    section.desk
+      h1= `${error.message} - Status: ${error.status}`
+      img.desk-items(src='/static/img/desk.svg')
+      a.button-primary-small(href='/hello') Go Home
+      .paper
+        pre.stack-trace #{error.stack}
+      .tear
