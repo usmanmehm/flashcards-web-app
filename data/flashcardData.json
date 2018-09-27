@@ -26,6 +26,26 @@
                 "question": "Which HTML element can contain JavaScript?",
                 "hint": "It starts with an \"s\"",
                 "answer": "<script>"
+            },
+            {
+                "question": "Which animal can sense earthquakes",
+                "hint": "It would start slithering away!",
+                "answer": "Snake"
+            },
+            {
+                "question": "What colour would Coca-Cola be without colouring?",
+                "hint": "Same colour as grass",
+                "answer": "Green"
+            },
+            {
+                "question": "What percent of the world is left-handed?",
+                "hint": "1/10 people",
+                "answer": "10%"
+            },
+            {
+                "question": "What did Al Capone's business card say his position was?",
+                "hint": "Selling sofas is a good cover up",
+                "answer": "A furniture dealer"
             }
         ]
     }
